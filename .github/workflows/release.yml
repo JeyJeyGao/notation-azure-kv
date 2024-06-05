@@ -24,6 +24,9 @@ jobs:
           - runtime: linux-x64
             build_args: --enable-aot
             os: ubuntu-latest
+          - runtime: linux-musl-x64
+            build_args: --enable-aot
+            os: ubuntu-latest
           - runtime: linux-arm64
             build_args: --enable-aot
             os: ubuntu-22.04
